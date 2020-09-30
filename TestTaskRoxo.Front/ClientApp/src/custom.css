@@ -1,0 +1,49 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.order-wrapper {
+    min-height:500px;
+}
+    .order-wrapper .card.left-panel {
+        height: 100%;
+    }
+
+.with-status-color div[os] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: block;
+    float: left;
+}
+.with-status-color div[os='1'] {
+    background-color: green;
+}
+
+.with-status-color div[os='2'] {
+    background-color: blueviolet;
+}
+
+.order-statuses-wrapper {
+    margin-top:150px;
+}
+
+.right-panel {
+    width: 100%;    
+    box-sizing: border-box;
+}
+
+.right-container {
+    margin-bottom: 15px;
+}
